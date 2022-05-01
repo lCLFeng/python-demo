@@ -67,4 +67,4 @@ def write_result_to_file(absolute_file_path, new_absolute_file_path, group_name)
 
 
 if __name__ == '__main__':
-    insert_group_name_and_save_new_file(r"C:\Users\ClOONG\Desktop\work", "Fuji", "333")
+    insert_group_name_and_save_new_file(r"C:\Users\ClOONG\Desktop\work", "Fuji", "")
