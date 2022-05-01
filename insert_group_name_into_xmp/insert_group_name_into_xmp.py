@@ -67,4 +67,8 @@ def write_result_to_file(absolute_file_path, new_absolute_file_path, group_name)
 
 
 if __name__ == '__main__':
-    insert_group_name_and_save_new_file(r"C:\Users\ClOONG\Desktop\work", "Fuji", "")
+    dir_of_xmp_files = r"C:\user\xmp"
+    group_name = r"Fuji"
+    # 可选，默认保存在 dir_of_xmp_files\result\
+    dir_of_output_result = r""
+    insert_group_name_and_save_new_file(dir_of_xmp_files, group_name, dir_of_output_result)
